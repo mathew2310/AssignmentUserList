@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840FE9C927D7598200EB250B /* UIImageDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FE9C827D7598200EB250B /* UIImageDownload.swift */; };
 		842BEDB327D169AB00757497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BEDB227D169AB00757497 /* AppDelegate.swift */; };
 		842BEDB527D169AB00757497 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BEDB427D169AB00757497 /* SceneDelegate.swift */; };
 		842BEDB727D169AB00757497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BEDB627D169AB00757497 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		842BEDCA27D169AC00757497 /* UserListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BEDC927D169AC00757497 /* UserListTests.swift */; };
 		842BEDD427D169AD00757497 /* UserListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BEDD327D169AD00757497 /* UserListUITests.swift */; };
 		842BEDD627D169AD00757497 /* UserListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BEDD527D169AD00757497 /* UserListUITestsLaunchTests.swift */; };
+		842BEDE327D16A1500757497 /* UserResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BEDE227D16A1500757497 /* UserResponce.swift */; };
+		842BEDFC27D2235100757497 /* userTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842BEDFB27D2235100757497 /* userTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840FE9C827D7598200EB250B /* UIImageDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageDownload.swift; sourceTree = "<group>"; };
 		842BEDAF27D169AB00757497 /* UserList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842BEDB227D169AB00757497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842BEDB427D169AB00757497 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		842BEDCF27D169AD00757497 /* UserListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842BEDD327D169AD00757497 /* UserListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUITests.swift; sourceTree = "<group>"; };
 		842BEDD527D169AD00757497 /* UserListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		842BEDE227D16A1500757497 /* UserResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponce.swift; sourceTree = "<group>"; };
+		842BEDFB27D2235100757497 /* userTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				842BEDB227D169AB00757497 /* AppDelegate.swift */,
 				842BEDB427D169AB00757497 /* SceneDelegate.swift */,
 				842BEDB627D169AB00757497 /* ViewController.swift */,
+				842BEDFB27D2235100757497 /* userTableViewCell.swift */,
+				842BEDE227D16A1500757497 /* UserResponce.swift */,
+				840FE9C827D7598200EB250B /* UIImageDownload.swift */,
 				842BEDB827D169AB00757497 /* Main.storyboard */,
 				842BEDBB27D169AC00757497 /* Assets.xcassets */,
 				842BEDBD27D169AC00757497 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				842BEDB727D169AB00757497 /* ViewController.swift in Sources */,
+				842BEDFC27D2235100757497 /* userTableViewCell.swift in Sources */,
 				842BEDB327D169AB00757497 /* AppDelegate.swift in Sources */,
+				840FE9C927D7598200EB250B /* UIImageDownload.swift in Sources */,
 				842BEDB527D169AB00757497 /* SceneDelegate.swift in Sources */,
+				842BEDE327D16A1500757497 /* UserResponce.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
