@@ -43,7 +43,7 @@ class ViewController: UIViewController {
                print("data")
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
-                } 
+                }
                 
             }catch{
                 print(error.localizedDescription)
